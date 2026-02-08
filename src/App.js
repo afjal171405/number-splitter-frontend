@@ -6,8 +6,8 @@ import {
 } from 'lucide-react';
 
 // CHANGE THIS TO YOUR SERVER IP OR DOMAIN
-const BACKEND_URL = "http://202.51.1.164:80/process-excel";
-
+// App.js
+const BACKEND_URL = "https://telesplit.yajtech.com/api/process-excel";
 function App() {
   const [file, setFile] = useState(null);
   const [columnName, setColumnName] = useState('Mobile');
